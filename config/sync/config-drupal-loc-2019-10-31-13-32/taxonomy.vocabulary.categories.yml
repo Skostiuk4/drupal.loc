@@ -1,0 +1,8 @@
+uuid: e707199a-143f-4e00-9a06-c99ed4c6aa88
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'categories for drupal'
+weight: 0

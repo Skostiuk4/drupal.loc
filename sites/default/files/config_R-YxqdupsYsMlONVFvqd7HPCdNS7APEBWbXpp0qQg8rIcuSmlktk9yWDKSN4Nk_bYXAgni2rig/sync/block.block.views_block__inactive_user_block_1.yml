@@ -1,0 +1,24 @@
+uuid: 6e41f588-1eb8-4fe9-9ffd-38261e38bc2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.inactive_user
+  module:
+    - views
+  theme:
+    - zircon
+id: views_block__inactive_user_block_1
+theme: zircon
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:inactive_user-block_1'
+settings:
+  id: 'views_block:inactive_user-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

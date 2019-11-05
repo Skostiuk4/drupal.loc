@@ -1,0 +1,8 @@
+uuid: 0f611f08-ce7a-4818-9472-573ec1ebdace
+langcode: en
+status: true
+dependencies: {  }
+id: events
+label: events
+target_entity_type_id: block_content
+description: ''

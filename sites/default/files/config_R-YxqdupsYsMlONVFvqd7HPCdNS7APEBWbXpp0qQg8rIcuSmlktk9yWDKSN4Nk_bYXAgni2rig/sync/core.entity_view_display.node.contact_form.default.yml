@@ -1,0 +1,28 @@
+uuid: 9df61a9a-1dee-4e79-8cad-8e259ab75c25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.contact_form.body
+    - node.type.contact_form
+  module:
+    - text
+    - user
+id: node.contact_form.default
+targetEntityType: node
+bundle: contact_form
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

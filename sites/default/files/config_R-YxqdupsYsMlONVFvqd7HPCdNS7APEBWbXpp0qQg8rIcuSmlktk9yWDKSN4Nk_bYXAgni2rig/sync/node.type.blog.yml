@@ -1,0 +1,17 @@
+uuid: 76d4d900-4cd9-4a74-8d46-1461a5279279
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Blog
+type: blog
+description: 'Used for creating blog posts'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

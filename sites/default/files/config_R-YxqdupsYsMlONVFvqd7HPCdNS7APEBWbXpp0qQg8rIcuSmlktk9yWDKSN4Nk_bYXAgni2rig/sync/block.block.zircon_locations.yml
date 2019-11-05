@@ -1,0 +1,25 @@
+uuid: eaea1fa1-a5a8-481a-bfb4-c507088c7491
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:69aede40-4b04-4988-8b6c-8c9990221fad'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: zircon_locations
+theme: zircon
+region: footer
+weight: -10
+provider: null
+plugin: 'block_content:69aede40-4b04-4988-8b6c-8c9990221fad'
+settings:
+  id: 'block_content:69aede40-4b04-4988-8b6c-8c9990221fad'
+  label: Locations
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

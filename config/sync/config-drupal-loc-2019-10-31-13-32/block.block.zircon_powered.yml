@@ -1,0 +1,22 @@
+uuid: 9df0bf2c-c9ad-4c33-b33e-7022366fef70
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - zircon
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: zircon_powered
+theme: zircon
+region: footer
+weight: -12
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

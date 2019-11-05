@@ -1,0 +1,24 @@
+uuid: f45e7794-7f85-4621-9180-ff70e51b6249
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_blog_added
+  module:
+    - views
+  theme:
+    - zircon
+id: zircon_views_block__recent_blog_added_block_1
+theme: zircon
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'views_block:recent_blog_added-block_1'
+settings:
+  id: 'views_block:recent_blog_added-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,12 @@
+uuid: 5d6f5a17-909a-425e-a26c-2703c6246ce4
+langcode: en
+status: true
+dependencies: {  }
+id: form_cont
+label: 'Form cont'
+recipients:
+  - skostiuk4@gmail.com
+reply: ''
+weight: 0
+message: 'Thank you'
+redirect: ''

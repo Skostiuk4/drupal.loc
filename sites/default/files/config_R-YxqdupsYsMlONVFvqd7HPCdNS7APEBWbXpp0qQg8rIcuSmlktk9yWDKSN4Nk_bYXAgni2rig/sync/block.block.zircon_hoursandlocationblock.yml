@@ -1,0 +1,25 @@
+uuid: dd659d69-4e42-4e64-97bd-e74d60fbf97c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a5c9ec89-357a-4ac4-b1e1-42a5ed5bcad2'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: zircon_hoursandlocationblock
+theme: zircon
+region: sidebar_second
+weight: -13
+provider: null
+plugin: 'block_content:a5c9ec89-357a-4ac4-b1e1-42a5ed5bcad2'
+settings:
+  id: 'block_content:a5c9ec89-357a-4ac4-b1e1-42a5ed5bcad2'
+  label: 'Hours and location block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

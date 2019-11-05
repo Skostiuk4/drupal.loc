@@ -1,0 +1,22 @@
+uuid: ba7c8bba-4561-4606-a2f3-0e5fc708c1ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.contact_form
+  module:
+    - text
+id: node.contact_form.body
+field_name: body
+entity_type: node
+bundle: contact_form
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

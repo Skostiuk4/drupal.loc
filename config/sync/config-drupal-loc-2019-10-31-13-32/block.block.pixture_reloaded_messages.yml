@@ -1,0 +1,22 @@
+uuid: 08df1494-cdda-4cf9-81f5-ae8b40fc0ce8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pixture_reloaded
+_core:
+  default_config_hash: _4uV68ucs9pN3tYUjFF6dPF1wTPf49xxgtn8IXo7CX4
+id: pixture_reloaded_messages
+theme: pixture_reloaded
+region: highlighted
+weight: -100
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

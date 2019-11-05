@@ -1,0 +1,25 @@
+uuid: f202d8eb-960a-4fa3-b254-6ad677e3b890
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:69aede40-4b04-4988-8b6c-8c9990221fad'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: locations
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:69aede40-4b04-4988-8b6c-8c9990221fad'
+settings:
+  id: 'block_content:69aede40-4b04-4988-8b6c-8c9990221fad'
+  label: Locations
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

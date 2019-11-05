@@ -1,0 +1,76 @@
+uuid: b35c1e23-5b28-4d3d-a994-7e41acee4ebb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_about_me
+    - field.field.user.user.field_forename
+    - field.field.user.user.field_middlename
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_surname
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_about_me:
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_forename:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_middlename:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_phone:
+    weight: 10
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_surname:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  member_for:
+    weight: 5
+    region: content
+  user_picture:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden: {  }

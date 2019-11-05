@@ -1,0 +1,21 @@
+uuid: 7bfe4706-869a-4303-a4fb-590c8d69529c
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_forename
+field_name: field_forename
+entity_type: user
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

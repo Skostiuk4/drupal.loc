@@ -1,0 +1,77 @@
+uuid: 9120fd3e-0efc-434a-868d-2f74d6125fd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.events.body
+    - field.field.node.events.field_event_data
+    - field.field.node.events.field_event_logo
+    - field.field.node.events.field_event_website
+    - field.field.node.events.field_phone
+    - image.style.medium
+    - node.type.events
+  module:
+    - datetime
+    - image
+    - link
+    - telephone
+    - text
+    - user
+id: node.events.full
+targetEntityType: node
+bundle: events
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_event_data:
+    weight: 4
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: long
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_event_logo:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_event_website:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_phone:
+    type: telephone_link
+    weight: 5
+    region: content
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
