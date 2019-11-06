@@ -1,0 +1,21 @@
+uuid: b75db5c5-67b9-4c97-9f2c-7486c90f2132
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.events
+    - field.storage.comment.field_books_teaser
+  module:
+    - options
+id: comment.events.field_books_teaser
+field_name: field_books_teaser
+entity_type: comment
+bundle: events
+label: 'Books teaser'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

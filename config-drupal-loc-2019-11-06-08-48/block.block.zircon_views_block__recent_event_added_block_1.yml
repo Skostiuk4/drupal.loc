@@ -1,0 +1,24 @@
+uuid: cbdeed63-e1c6-4328-9714-6f7a7631f7f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_event_added
+  module:
+    - views
+  theme:
+    - zircon
+id: zircon_views_block__recent_event_added_block_1
+theme: zircon
+region: sidebar_first
+weight: -13
+provider: null
+plugin: 'views_block:recent_event_added-block_1'
+settings:
+  id: 'views_block:recent_event_added-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,67 @@
+uuid: 0ccf1d84-b196-43e3-a0d3-952549272d7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.form_cont
+    - field.field.contact_message.form_cont.field_email
+    - field.field.contact_message.form_cont.field_first_name
+    - field.field.contact_message.form_cont.field_last_name
+id: contact_message.form_cont.default
+targetEntityType: contact_message
+bundle: form_cont
+mode: default
+content:
+  copy:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_email:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_first_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_last_name:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  message:
+    type: string_textarea
+    weight: 4
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  preview:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  mail: true
+  name: true

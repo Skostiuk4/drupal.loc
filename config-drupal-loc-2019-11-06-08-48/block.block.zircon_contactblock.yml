@@ -1,0 +1,23 @@
+uuid: f5e8cca4-c93b-4eb3-9953-3f560bbdd6a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.form_cont
+  module:
+    - contact_block
+  theme:
+    - zircon
+id: zircon_contactblock
+theme: zircon
+region: sidebar_first
+weight: -14
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: 'Contact block'
+  provider: contact_block
+  label_display: visible
+  contact_form: form_cont
+visibility: {  }

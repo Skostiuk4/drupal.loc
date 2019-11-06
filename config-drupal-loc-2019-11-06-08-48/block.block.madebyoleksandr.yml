@@ -1,0 +1,25 @@
+uuid: 2d0c234b-1269-4b3b-8d81-d879773ab219
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b388b054-f63e-4e72-939d-3d88da21e361'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: madebyoleksandr
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:b388b054-f63e-4e72-939d-3d88da21e361'
+settings:
+  id: 'block_content:b388b054-f63e-4e72-939d-3d88da21e361'
+  label: 'Made by Oleksandr'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

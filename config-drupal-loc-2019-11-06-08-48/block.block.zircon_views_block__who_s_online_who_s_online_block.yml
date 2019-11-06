@@ -1,0 +1,24 @@
+uuid: 801d4f08-3012-40e5-bb77-449a1b060cd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - views
+  theme:
+    - zircon
+id: zircon_views_block__who_s_online_who_s_online_block
+theme: zircon
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

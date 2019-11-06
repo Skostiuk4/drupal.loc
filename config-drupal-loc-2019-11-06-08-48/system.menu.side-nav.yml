@@ -1,0 +1,8 @@
+uuid: 06f431df-adc6-49e4-adcc-09d28aaca15e
+langcode: en
+status: true
+dependencies: {  }
+id: side-nav
+label: 'Side nav'
+description: 'Sidibar Navigation For Posts'
+locked: false

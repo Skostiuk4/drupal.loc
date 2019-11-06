@@ -1,0 +1,22 @@
+uuid: decb554e-0e39-435e-bc87-61abe314adef
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - bartik
+id: contentform_2
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: formblock_node
+settings:
+  id: formblock_node
+  label: 'Content form'
+  provider: node
+  label_display: visible
+  type: contact_form
+  show_help: 0
+visibility: {  }

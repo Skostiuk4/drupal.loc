@@ -1,0 +1,10 @@
+uuid: 8cf347a7-6eb3-4351-b99d-9d07e5585ad6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.books_teaser
+label: 'Books teaser'
+targetEntityType: node
+cache: true

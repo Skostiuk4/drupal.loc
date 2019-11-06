@@ -1,0 +1,37 @@
+uuid: 4ed5e365-5430-436a-9cc7-52571931ee3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.events
+    - field.field.comment.events.comment_body
+    - field.field.comment.events.field_books_teaser
+  module:
+    - options
+    - text
+id: comment.events.default
+targetEntityType: comment
+bundle: events
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_books_teaser:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true

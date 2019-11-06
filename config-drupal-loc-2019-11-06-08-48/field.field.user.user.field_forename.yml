@@ -1,0 +1,21 @@
+uuid: 6888a4eb-54c8-4aa2-98c6-85f28ff19930
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_forename
+  module:
+    - options
+    - user
+id: user.user.field_forename
+field_name: field_forename
+entity_type: user
+bundle: user
+label: Forename
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

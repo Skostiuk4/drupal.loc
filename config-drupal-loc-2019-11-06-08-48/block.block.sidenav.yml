@@ -1,0 +1,25 @@
+uuid: 041c590f-647a-4372-9163-bf38bcac33ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-nav
+  module:
+    - system
+  theme:
+    - bartik
+id: sidenav
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:side-nav'
+settings:
+  id: 'system_menu_block:side-nav'
+  label: 'Related Posts'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

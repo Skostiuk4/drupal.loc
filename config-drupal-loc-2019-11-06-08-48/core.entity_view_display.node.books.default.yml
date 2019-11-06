@@ -1,0 +1,82 @@
+uuid: 1a57dd54-c8a7-4058-824d-d0f061719b26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.books.body
+    - field.field.node.books.field_author
+    - field.field.node.books.field_genre
+    - field.field.node.books.field_image1
+    - field.field.node.books.field_publication_date
+    - field.field.node.books.field_title
+    - node.type.books
+  module:
+    - datetime
+    - image
+    - link
+    - options
+    - text
+    - user
+id: node.books.default
+targetEntityType: node
+bundle: books
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_author:
+    weight: 106
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_genre:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_image1:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_publication_date:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_title:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true

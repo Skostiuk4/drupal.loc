@@ -1,0 +1,21 @@
+uuid: b12d78ea-6edc-494b-8052-49d8fd2b42a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_plain
+    - node.type.article
+id: node.article.field_text_plain
+field_name: field_text_plain
+entity_type: node
+bundle: article
+label: 'text plain'
+description: "Schön, dich zu sehen! Ist schon eine Weile her, seit du uns besucht hast. Und wann hast du dir das letzte Mal einen Wunsch erfüllt? Mach es gleich mit eBay Kleinanzeigen: Hier warten Millionen verschiedenster Anzeigen auf dich, und ganz bestimmt deine neuen Lieblingssachen! 😍💚\r\nSolltest du eher in Goldgräber-Stimmung sein, haben wir da einen heißen Tipp für dich: bei uns kannst du 1.777€ verdienen. Laut einer Studie befinden sich in jedem Haushalt ungenutzte Sachen in diesem Wert. Also, worauf wartest du?"
+required: false
+translatable: false
+default_value:
+  -
+    value: "Schön, dich zu sehen! Ist schon eine Weile her, seit du uns besucht hast. Und wann hast du dir das letzte Mal einen Wunsch erfüllt? Mach es gleich mit eBay Kleinanzeigen: Hier warten Millionen verschiedenster Anzeigen auf dich, und ganz bestimmt deine neuen Lieblingssachen! 😍💚\r\nSolltest du eher in Goldgräber-Stimmung sein, haben wir da einen heißen Tipp für dich: bei uns kannst du 1.777€ verdienen. Laut einer Studie befinden sich in jedem Haushalt ungenutzte Sachen in diesem Wert. Also, worauf wartest du?"
+default_value_callback: ''
+settings: {  }
+field_type: string_long

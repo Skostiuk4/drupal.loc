@@ -1,0 +1,24 @@
+uuid: 7764b163-3554-439b-9105-ba580e268aa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_format
+    - node.type.article
+  module:
+    - text
+id: node.article.field_text_format
+field_name: field_text_format
+entity_type: node
+bundle: article
+label: 'text format'
+description: 'this is long text'
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p>Schön, dich zu sehen! Ist schon eine Weile her, seit du uns besucht hast. Und wann hast du dir das letzte Mal einen Wunsch erfüllt? Mach es gleich mit&nbsp;<a href=\"https://cl.s7.exct.net/?qs=7224535c039c81839603ebf6a7a4861a41e32263b0b3d52210d79ce93c908e6c47e207adb5dfadfb2499806917541a28f62f73d00efff701\">eBay Kleinanzeigen:</a>&nbsp;Hier warten&nbsp;<strong>Millionen verschiedenster Anzeigen</strong>&nbsp;auf dich, und ganz bestimmt deine neuen Lieblingssachen!&nbsp;<img alt=\"😍\" src=\"https://mail.google.com/mail/e/1f60d\" /><img alt=\"💚\" src=\"https://mail.google.com/mail/e/1f49a\" /><br />\r\nSolltest du eher in Goldgräber-Stimmung sein, haben wir da einen heißen Tipp für dich: bei uns kannst du&nbsp;<strong>1.777€</strong>&nbsp;<strong>verdienen</strong>. Laut einer&nbsp;<a href=\"https://cl.s7.exct.net/?qs=24043d6fbca2b699b36915439fb4c6a2a64781c28b88814cfd132f77c10fa790a3d67676e9f57b937e3dfaba10751577a5970dad45a15091\">Studie</a>&nbsp;befinden sich in jedem Haushalt ungenutzte Sachen in diesem Wert. Also, worauf wartest du?</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

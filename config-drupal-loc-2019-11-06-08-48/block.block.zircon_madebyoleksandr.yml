@@ -1,0 +1,25 @@
+uuid: 9526da99-276e-4665-8909-e79c5520f60d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b388b054-f63e-4e72-939d-3d88da21e361'
+  module:
+    - block_content
+  theme:
+    - zircon
+id: zircon_madebyoleksandr
+theme: zircon
+region: footer
+weight: -14
+provider: null
+plugin: 'block_content:b388b054-f63e-4e72-939d-3d88da21e361'
+settings:
+  id: 'block_content:b388b054-f63e-4e72-939d-3d88da21e361'
+  label: 'Made by Oleksandr'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

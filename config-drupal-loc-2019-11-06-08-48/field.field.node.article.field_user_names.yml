@@ -1,0 +1,28 @@
+uuid: 13f655fb-7fd1-40d8-a784-d84fe85d6db8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user_names
+    - node.type.article
+id: node.article.field_user_names
+field_name: field_user_names
+entity_type: node
+bundle: article
+label: 'User names'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

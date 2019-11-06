@@ -1,0 +1,21 @@
+uuid: 5a15e136-14fc-4452-8962-b04d34c9b9fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: 'Full Article'
+type: article
+description: 'Full content'
+help: ''
+new_revision: true
+preview_mode: 2
+display_submitted: true

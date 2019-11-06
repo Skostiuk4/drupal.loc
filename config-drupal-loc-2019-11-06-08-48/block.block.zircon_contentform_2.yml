@@ -1,0 +1,22 @@
+uuid: 97613d8d-79ae-41ae-86c2-672777084486
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - zircon
+id: zircon_contentform_2
+theme: zircon
+region: sidebar_first
+weight: -8
+provider: null
+plugin: formblock_node
+settings:
+  id: formblock_node
+  label: 'Content form'
+  provider: node
+  label_display: visible
+  type: contact_form
+  show_help: 0
+visibility: {  }

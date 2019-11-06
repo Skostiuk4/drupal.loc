@@ -1,0 +1,24 @@
+uuid: 223c430b-5195-4269-b11f-b2053732078e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_article_added
+  module:
+    - views
+  theme:
+    - zircon
+id: zircon_views_block__recent_article_added_block_1
+theme: zircon
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'views_block:recent_article_added-block_1'
+settings:
+  id: 'views_block:recent_article_added-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

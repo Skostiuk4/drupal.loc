@@ -1,0 +1,36 @@
+uuid: 9ed63dba-05af-4e4b-9ec1-8b872a871f3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_genre
+field_name: field_genre
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '. Genre:'
+      label: '. Genre:'
+    -
+      value: '- detective;'
+      label: '- detective;'
+    -
+      value: '- novel;'
+      label: '- novel;'
+    -
+      value: '- western;'
+      label: '- western;'
+    -
+      value: '- tales;'
+      label: '- tales;'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,10 @@
+uuid: b2f46ba9-474a-40cb-b088-12703bc34c56
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.main_menu
+label: 'Main menu'
+targetEntityType: block_content
+cache: true

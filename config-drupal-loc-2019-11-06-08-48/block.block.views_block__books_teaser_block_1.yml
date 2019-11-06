@@ -1,0 +1,24 @@
+uuid: 79dec530-59c3-44cb-ba0e-c74e154f8e95
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.books_teaser
+  module:
+    - views
+  theme:
+    - zircon
+id: views_block__books_teaser_block_1
+theme: zircon
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'views_block:books_teaser-block_1'
+settings:
+  id: 'views_block:books_teaser-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

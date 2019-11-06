@@ -1,0 +1,25 @@
+uuid: ba9a58c8-1924-4fb1-9094-6c38544b2394
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.side-nav
+  module:
+    - system
+  theme:
+    - zircon
+id: zircon_sidenav
+theme: zircon
+region: sidebar_first
+weight: -12
+provider: null
+plugin: 'system_menu_block:side-nav'
+settings:
+  id: 'system_menu_block:side-nav'
+  label: 'Related Posts'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

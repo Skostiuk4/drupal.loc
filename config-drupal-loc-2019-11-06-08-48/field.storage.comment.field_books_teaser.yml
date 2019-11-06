@@ -1,0 +1,21 @@
+uuid: 817f74a0-e64e-4bf2-963c-a8be5fabc6c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - options
+id: comment.field_books_teaser
+field_name: field_books_teaser
+entity_type: comment
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

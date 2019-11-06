@@ -1,0 +1,19 @@
+uuid: e5d0e5a0-3d1c-4b4a-8ee2-d26c4096dab9
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.form_cont
+    - field.storage.contact_message.field_first_name
+id: contact_message.form_cont.field_first_name
+field_name: field_first_name
+entity_type: contact_message
+bundle: form_cont
+label: 'first name'
+description: 'enter name'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

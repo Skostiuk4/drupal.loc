@@ -1,0 +1,25 @@
+uuid: 088c0e38-2106-40a9-8fae-238ab2562ff9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pixture_reloaded
+_core:
+  default_config_hash: jGCxlwwr2JzqVJx_qsQHg53I0jjgpQYmHhAEb05Zjso
+id: pixture_reloaded_branding
+theme: pixture_reloaded
+region: header_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,48 @@
+uuid: ae7c8c77-9108-4fe3-b37a-792154dbb094
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.books_teaser
+  module:
+    - ctools
+    - node
+    - system
+    - views
+  theme:
+    - zircon
+id: views_block__books_teaser_block_1_2
+theme: zircon
+region: sidebar_first
+weight: -11
+provider: null
+plugin: 'views_block:books_teaser-block_1'
+settings:
+  id: 'views_block:books_teaser-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '3'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      books: books
+      events: events
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      books: books
+      events: events
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

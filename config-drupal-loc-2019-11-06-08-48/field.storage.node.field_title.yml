@@ -1,0 +1,24 @@
+uuid: 0c281cfd-69a0-4025-8000-b570be405598
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_title
+field_name: field_title
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Angels and demons'
+      label: 'Angels and demons'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

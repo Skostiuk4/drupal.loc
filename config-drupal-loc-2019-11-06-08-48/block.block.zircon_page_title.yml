@@ -1,0 +1,46 @@
+uuid: 43cbe54e-6459-41e8-ae35-b8b2709a7cf0
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+  theme:
+    - zircon
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: zircon_page_title
+theme: zircon
+region: footer
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Full block'
+  provider: core
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      blog: blog
+      book: book
+      contact_form: contact_form
+      events: events
+      forum: forum
+      page: page
+      user_groups: user_groups
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      blog: blog
+      book: book
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
